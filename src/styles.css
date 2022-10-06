@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.list-non-bullet {
+  list-style-type: none;
+}
+
+.inline-list-item {
+  display: inline-block;
+  padding: 1rem;
+  margin: 0.5rem 1rem;
+}
+
+.category {
+  cursor: pointer;
+  border-radius: 1rem;
+  background-color: #3b8ac7;
+  color: white;
+  border: none;
+}
+
+.category:hover {
+  background-color: #0b6cb7;
+}
+
+.movie {
+  width: 70%;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 1rem;
+  text-align: left;
+}
